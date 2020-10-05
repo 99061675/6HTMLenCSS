@@ -1,0 +1,67 @@
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+}
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+.topnav a:active {
+	background-color: #4CAF50;
+	color: white;
+}
+div {
+	font-family: 'Roboto', sans-serif;
+}
+div.gehelepagina {
+	width: 750px;
+	margin: 0 auto;
+}
+div.titel {
+	font-size: 36px;
+	line-height: 36px;
+	border-bottom: 1px solid black;
+}
+div.uitspraak {
+	font-size: 20px;
+	line-height: 26px;
+}
+div.titelingrediënten {
+	font-size: 24px;
+	line-height: 32px;
+	margin-top: 40px;
+}
+div.ingrediënten li{
+	margin-top: 10px;
+	font-size: 20px;
+	line-height: 26px;
+}
+div.titelbereidingswijze {
+	font-size: 32px;
+	line-height: 32px;
+}
+div.bereidingswijze {
+	font-size: 20px;
+	line-height: 26px;
+	margin-top: 40px;
+}
+div.bereidingswijze li{
+	margin-top: 20px;
+}
+div.tip{
+	padding: 4px;
+	background-color:#def6ed;
+	margin-top: 20px;
+	border-radius: 4px;
+}
+span.tip {
+	font-weight: bold;
+}
